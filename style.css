@@ -1,0 +1,62 @@
+/* Media queries */
+
+@media(max-width: 1200px) {
+    .containner {
+      width: 700px;
+      margin: 50px auto;
+    }
+  }
+
+@media(max-width: 992px) {
+  .containner {
+    width: 600px;
+    margin: 50px auto;
+  }
+}
+
+@media(max-width: 768px) {
+  .containner {
+    width: 500px;
+    margin: 50px auto;
+  }
+}
+
+@media(max-width: 576px) {
+  .containner {
+    width: 300px;
+    margin: 50px auto;
+  }
+}
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding : 100px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+body{
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  color : #A0A0A0;
+  font-family: 'Patrick Hand', cursive;
+}
+
+a{
+  text-decoration: none;
+  background-color : #D5FFE4;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 10px;
+}
+
+a:hover{
+  background-color : #d5ffe428;
+}
